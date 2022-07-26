@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Karla:wght@600;700;800&family=League+Gothic&family=Sedgwick+Ave&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  padding: 7rem;
+  font-family: 'Inter', sans-serif;
+  background-color: black;
+  justify-content: center;
+}
+.convertor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: 6943FF;
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.number {
+  padding: 10px;
+  border: 2px solid white;
+  font-size: 50px;
+  border-radius: 5px;
+  margin: 20px;
+  font-weight: 900;
+  width: 100px;
+  text-align: center;
+  background: none;
+  color: white;
+}
+.convert {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  width: 100px;
+}
+.lower-convertor {
+  background-color: F4F4F4;
+  padding: 30px;
+}
+.length,
+.volume,
+.mass {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: 5A537B;
+  font-weight: 900;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.paragraph {
+  margin-top: 5px;
+  font-size: 10px;
+  color: 353535;
+}
